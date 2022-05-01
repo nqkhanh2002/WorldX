@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    max-width: 1200px;
+}
+.container li {
+    padding : 0 5px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background-color: rgb(104, 105, 115);
+    text-align: center;
+}
+nav {
+    background-color: rgb(231, 231, 239);
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a {
+    color: rgba(94, 26, 253, 0.895);
+    font-size: 14px;
+}
+nav ul li:nth-child(2) i {
+    font-size: 15px;
+    margin-left: 5px;
+
+}
+nav ul li:nth-child(3) {
+    position: relative;
+}
+nav ul li:nth-child(3) input {
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding-left: 6px;
+}
+nav ul li:nth-child(3) i {
+    position: absolute;
+    font-size: 15px;
+    right: 12px;
+    line-height: 30px;
+    cursor: pointer;
+}
+nav ul li:nth-child(4) button {
+    height: 30px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(104, 21, 237);
+    border: 2px solid rgb(6, 6, 6);
+    border-radius: 5px;
+}
+nav ul li:nth-child(4) button i {
+    margin-right: 6px;
+}
+nav ul li:nth-child(4) button:hover {
+    background-color: rgb(96, 20, 238);
+}
+nav ul li:nth-child(5) button {
+    height: 30px;
+    padding: 0 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(104, 21, 237);
+    border: 2px solid rgb(6, 6, 6);
+    border-radius: 5px;
+}
+nav ul li:nth-child(5) button i {
+    margin-right: 6px;
+}
+nav ul li:nth-child(5) button:hover {
+    background-color: rgb(117, 208, 26);
+}
+/* mode light/dark */
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+.checkbox:checked + .label .ball {
+    transform: translateX(24px);
+}
+.label {
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 50px;
+    padding: 5px;
+    height: 26px;
+    width: 50px;
+}
+.ball {
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 22px;
+    width: 22px;
+    transition: transform 0.2s linear;
+}
+.fa-moon {
+    color: #67e004;
+}
+.fa-sun {
+    color: #f7f7ec;
+}
+/*menu bar*/
+.menu-bar {
+    background-color: #67e004;
+}
+.menu-bar ul {
+    display: flex;
+    justify-content: space-between;
+    color: #111;
+}
+.menu-bar ul li a {
+    font-size: 16px;
+    color: black;
+}
+.menu-bar ul li a i {
+    margin-right: 6px;
+}
+.menu-bar-content {
+    max-width: 1150px;
+}
+.menu-bar ul li { 
+    padding: 12px 20px;
+    transition: all 0.3s ease;
+    
+}
+.menu-bar ul li:hover {
+    background-color: white;
+}
