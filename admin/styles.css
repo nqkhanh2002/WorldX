@@ -77,6 +77,8 @@ nav {
 /*menu bar*/
 .menu-bar {
     background-color: black;
+    max-width: 100%;
+    margin: auto;
 }
 
 .menu-bar ul {
@@ -92,7 +94,7 @@ nav {
     margin-right: 6px;
 }
 .menu-bar-content {
-    max-width: 1150px;
+    max-width: 100%;
     text-align: center;
 }
 .menu-bar ul li { 
