@@ -4,7 +4,16 @@
 Sinh viên thực hiện :
 + Nguyễn Quốc Khánh - 20521452
 + Bùi Thị Thanh Ngân - 2052xxxx
-
+Front End 
+- HTML/CSS
+- Jquery, Boostrap
+- Javascript
+Back End
+- PHP - Lavarel
+- MySql
+- Ajax, MVC
+- CRUD
+Database
 Requirements 
 + Xác định các phân quyền
   - Thực thể mối liên kết - CSDL
@@ -23,3 +32,5 @@ Requirements
   - Database
   - Program : những phần mềm cần
   - Docs : File báo cáo 
+Trang bìa
+- 
